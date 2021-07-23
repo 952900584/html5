@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 200px;
+            /* border: 1px solid #000; */
+            animation: change 10s infinite linear alternate;
+        }
+        @keyframes change{
+            0%{
+                background: pink;
+            }
+            30%{
+                background: skyblue;
+                margin: 400px;
+            }
+            50%{
+                background: orange;
+                margin: 800px;
+            }
+            100%{
+                width: 1000px;
+                height: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

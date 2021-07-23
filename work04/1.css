@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 1592px;
+    height: 60px;
+    background: #353535;
+}
+.box1{
+    width: 1013px;
+    height: 60px;
+    background: #e24a15;
+    margin: 0 auto;
+}
+.main{
+    width: 1592px;
+    height: 421px;
+    background: #67cc75;
+}
+.main2{
+    width: 1592px;
+    height: 350px;
+    background: #f5f5f5;
+}
+.box2{
+    width:1014px;
+    height: 350px;
+    margin:0 auto;
+}
+.box3{
+    width: 264px;
+    height: 350px;
+    background: #222222;
+    float: left;
+}
+.box4{
+    width: 253px;
+    height: 350px;
+    background: #fdc07c;
+    float: left;
+}
+.box5{
+    width: 244px;
+    height: 350px;
+    background: #8adec9;
+    float: left;
+}
+.box6{
+    width: 253px;
+    height: 350px;
+    background: #a9d7f9;
+    float: left;
+}
+.main3{
+    width: 1592px;
+    height: 309px;
+}
+.box7{
+    width: 1014px;
+    height: 269px;
+    margin: 0 auto;
+    padding-top:40px;
+}
+.box8{
+    width: 303px;
+    height: 229px;
+    background: #e57c7c;
+    float: left;
+    margin-right: 14px;
+}
+.box9{
+    width: 339px;
+    height: 229px;
+    background: #7e7ce5;
+    float: left;
+    margin-right: 21px;
+}
+.box10{
+    width: 337px;
+    height: 229px;
+    background: #a9d7f9;
+    float: left;
+}
+.main4{
+    width: 1592px;
+    height: 216px;
+    background:#222222;
+}
+.box11{
+    width: 1014px;
+    height: 216px;
+    margin: 0 auto;
+}
+.box12{
+    width: 421px;
+    height: 216px;
+    background: #a9d7f9;
+    margin-right: 67px;
+    float: left;
+}
+.box13{
+    width: 334px;
+    height: 216px;
+    background: #f9a9e9;
+    margin-right: 28px;
+    float: left;
+}
+.box14{
+    width: 164px;
+    height: 216px;
+    background: #8c87f6;
+    float: left;
+}
+.main5{
+    width: 1592px;
+    height: 45px;
+    background: #101010;
+}
+.box15{
+    width: 1014px;
+    height: 45px;
+    background: #87a7f6;
+    margin: 0 auto;
+}
+/* .main6{
+    width: 1592px;
+    height: 39px;
+} */

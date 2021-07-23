@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 755px;
+    height: 320px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.box .film{
+    width: 150px;
+    height: 320px;
+    float: left;
+    overflow: hidden;
+    border-left: 1px solid #fff;
+    transition: all 0.5s;
+    position: relative;
+}
+.box:hover .film{
+    width: 27.5px;
+}
+.box .film:hover{
+    width: 640px;
+}
+.box .film .text{
+    position: absolute;
+    width: 755px;
+    height: 30px;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5)
+}

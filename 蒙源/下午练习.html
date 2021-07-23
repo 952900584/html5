@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //封装一个求三个数最大值的函数，参数传入且参数不能小于0否能直接返回
+        function max(a, b, c) {
+            var max = 0
+            if (a < 0 || b < 0 || c < 0) {
+                return 0
+            }
+            if (a > b && a > c) {
+                max = a
+            }
+            if (b > a && b > c) {
+                max = b
+            }
+            if (c > a && c > b) {
+                max = c
+            }
+            document.write(max)
+        }
+        // max(14,25,78)
+        //打印出1-100的所有偶数
+        var printOne = function () {
+            for (var i = 1; i <= 100; i++) {
+                if (i % 2 == 0) {
+                    document.write(i + ' ')
+                }
+            }
+        }
+        // printOne()
+        //打印100以内7的倍数
+        var printTwo = function () {
+            for (var i = 1; i <= 100; i++) {
+                if (i % 7 == 0) {
+                    document.write(i + ' ')
+                }
+            }
+        }
+        // printTwo()
+        //打印100-200内能被6整除的前三个数
+        var printThree = function () {
+            var count = 0
+            for (var i = 100; i <= 200; i++) {
+                if (i % 6 == 0) {
+                    document.write(i + ' ')
+                    count++
+                }
+                if (count == 3) {
+                    break
+                }
+            }
+        }
+        printThree()
+    </script>
+</body>
+
+</html>

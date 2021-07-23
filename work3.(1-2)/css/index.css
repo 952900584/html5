@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+header{
+    background-color: #222222;
+}
+header .holder{
+    width: 1200px;
+    height: 30px;
+}
+header .holder .welcome{
+    line-height: 30px;
+    color: #664f38;
+    float: left;
+}
+header .login{
+    float: right;
+    line-height: 30px;
+    color: #664f38;;
+}
+header .login a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul{
+    width: 1200px;
+    list-style: none;
+}
+nav li{
+    width: 100px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+li:hover{
+    background-color: pink;
+    color: #fff;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    background-color: #f2f2f2;
+}
+main .holder{
+    width: 1200px;
+    padding-top: 10px;
+}
+main .holder .left{
+    width: 988px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+}
+main .holder .right{
+    width: 198px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 10px;
+}
+aside{
+    position: fixed;
+    right: 0;
+    top: 200px;
+}
+aside li{
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    background-color: pink;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+aside li a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    background-color: #000;
+}
+footer .text{
+    color: #fff;
+    height: 100px;
+}

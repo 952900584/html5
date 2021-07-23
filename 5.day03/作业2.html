@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>打印三角</title>
+</head>
+<body>
+    <script>
+        /*
+            第1行4个空格，1个*    
+            第2行3个空格，3个*
+            第3行2个空格，5个*
+            第N行M个空格，K个*     K=2N-1    M=5-N
+        */
+        for(var i=1;i<=5;i++){
+            for(var M=0;M<=5-i;M++){
+                document.write('&ensp;')
+            }
+            for(var N=1;N<=2*i-1;N++){
+                document.write('*')
+            }
+            document.write('<br/>')
+        }
+    </script>
+</body>
+</html>

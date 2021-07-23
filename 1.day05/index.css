@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 402px;
+    margin-left: 28px;
+    margin-right: 40px;
+    margin-top: 43px;
+}
+p{
+    font-size: 24px;
+    line-height: 38px;
+    text-indent: 48px;
+}
+#p1{
+   font-weight: bold; 
+   font-style: italic;
+}
+.box2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#p2{
+    font-weight: bold;
+}
+#p3{
+    font-weight: bold;
+}
+#p4{
+    font-style: italic;
+    color: #f15a23;
+}
+#p5{
+    font-weight: bold;
+}

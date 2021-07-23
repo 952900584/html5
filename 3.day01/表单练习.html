@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .form {
+            width: 300px;
+            border: 1px solid black;
+            font-size: 12px;
+            margin: 0 auto;
+            background-color: skyblue;
+            border: NONE;
+        }
+        .form fieldset{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .form p {
+            margin-left: 200px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        fieldset {
+            border-bottom: 0px;
+            border-left: 0px;
+            border-right: 0px;
+        }
+
+        .form legend {
+            margin-left: 2px;
+        }
+
+        .form div {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .form .textArea textarea{
+            width: 200px;
+            height: 100px;
+        }
+        .form .submit{
+            margin-left: 110px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://taobao.com" method="get">
+        <div class="form">
+            <p>*所在项为必填项</p>
+            <fieldset>
+                <legend>个人信息</legend>
+            </fieldset>
+            <div class="name">
+                姓名*<input type="text" name="name">
+            </div>
+            <div class="address">
+                地址*<input type="text" name="address">
+            </div>
+            <div class="bir">
+                出生*<select name="day">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select name="month">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+                <select name="year">
+                    <option>1984</option>
+                    <option>1985</option>
+                    <option>1986</option>
+                    <option>1987</option>
+                    <option>1988</option>
+                    <option>1989</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                </select>
+            </div>
+            <div class="sex">
+                性别*<select name="sex">
+                    <option>男</option>
+                    <option>女</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>其他信息</legend>
+            </fieldset>
+            <fieldset>
+                <legend>你喜欢这个表单吗？*</legend>
+            </fieldset>
+            <div class="like">
+                <label><input type="radio" name='like'>喜欢&emsp;&emsp;</label>
+                <label><input type="radio" name='like'>不喜欢</label>
+            </div>
+            <fieldset>
+                <legend>你喜欢什么运动*</legend>
+            </fieldset>
+            <div class="sport">
+                <label><input type="checkbox" name="sports">足球&emsp;&emsp;</label>
+                <label><input type="checkbox" name="sports">篮球&emsp;&emsp;</label>
+                <label><input type="checkbox" name="sports">乒乓球</label>
+            </div>
+            <fieldset>
+                <legend>请写下你的建议？*</legend>
+            </fieldset>
+            <div class="textArea">
+                <textarea name="advice"></textarea>
+            </div>
+            <div class="submit">
+                <button type="submit">提交个人信息</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

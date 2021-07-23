@@ -1,0 +1,14 @@
+常见的兼容性问题：
+        1. 图片3px问题      
+	使用vertical-align或者display:block
+        2. 行内块元素之间默认的间隔  
+	代码不换行或者用定位或者用float
+        3. 图片外面有链接，图片在低版本浏览器里面会有边框
+	使用border：none；    
+        4. png24在ie6里面不是透明的。   
+	改用png8 
+        5. 表单元素垂直方向没有对齐  
+	使用vertical-align或者display:block
+        6. 鼠标移入，实现手型    
+	cursor:hand;
+	cursor:pointer;

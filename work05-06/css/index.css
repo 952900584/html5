@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.contSet{
+    min-width: 1018px;
+    margin: 0 auto;
+}
+
+.head{
+    /* width: 100%; */
+    /* height: 62px; */
+    background-color: #232323;
+}
+.navigation{
+    width: 1018px;
+    /* height: 62px; */
+    /* margin: 0 auto; */
+}
+.logo{
+    float: left;
+    margin-right: 40px;
+}
+ul{
+    list-style-type: none;
+}
+.li1{
+    color: #ffffff;
+    float: left;
+    font-family: "宋体";
+    line-height: 62px;
+}
+.content{
+    /* height: 62px; */
+}
+.box{
+    text-align: center;
+    float: left;
+}
+span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line{
+    width: 2px;
+    height: 16px;
+    /* margin-right: 0px; */
+    float: right;
+    margin-top: 23px;
+}
+.l1{
+    width: 1px;
+    height: 16px;
+    background: #444444;
+    float: left;
+}
+.l2{
+    width:1px;
+    height: 16px;
+    background: #000000;
+    float: left;
+}
+.banner{
+    /* width: 1519px; */
+    /* height: 423px; */
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    min-height: 423px;
+}
+.main{
+    /* width: 1519px; */
+    /* height: 350px; */
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.boxb{
+    width: 1016px;
+    /* height: 288px; */
+    /* margin: 0 auto; */
+    margin-top:36px;
+}
+.box1{
+    width:252px;
+    /* height: 288px; */
+    float: left;
+    text-align: center;
+    border-right: 1px #dde6f0 solid;
+    border-left: 1px #ffffff solid;
+}
+#box{
+    width:252px;
+    /* height: 288px; */
+    float: left;
+    text-align: center;
+    border-right: 1px #dde6f0 solid;
+}
+#box1{
+    width:252px;
+    /* height: 288px; */
+    float: left;
+    text-align: center;
+    border-left: 1px #ffffff solid;
+}
+p{
+    font-size: 10px;
+    color: #afbcd3;
+}
+.p1{
+    font-size: 13px;
+    color: #546c7d;
+}
+.img1{
+    width: 130px;
+    /* height: 101px; */
+    margin: 0 auto;
+}
+.main2{
+    /* width: 1519px; */
+    /* height: 271px; */
+    padding-top: 42px;
+}
+.box2{
+    width: 905px;
+    /* height: 227px; */
+    /* margin: 0 auto; */
+}
+.img2{
+    width: 299px;
+    /* height: 227px; */
+    /* background-image: url(../images/main2.png); */
+    float: left;
+    margin-right: 20px;
+}
+.box3{
+    width: 344px;
+    /* height: 227px; */
+    float: left;
+}
+.tel{
+    float: left;
+}
+#p2{
+    color:#444444;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#p3{
+    color: #999999;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.news{
+    border-bottom: 1px #999999 dashed;
+    padding-bottom: 5px;
+    overflow: hidden;
+    /* white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+.directory{
+    margin-top: 15px;
+}
+.new{
+    font-size: 13px;
+    color: #000000;
+    font-family: "宋体";
+}
+#p4{
+    font-size: 25px;
+    color: #000000;
+}
+.main3{
+    /* width: 1519px; */
+    /* height: 212px; */
+    background-color: #222222;
+    margin-top: 20px;
+}
+.box4{
+    width: 1012px;
+    /* height: 212px; */
+    /* margin: 0 auto; */
+}
+.inf{
+    width: 400px;
+    height: 212px;
+    float: left;
+}
+.inf1{
+    width: 100px;
+    float: left;
+}
+.map{
+    width: 317px;
+    height: 212px;
+    background-image: url(../images/map.jpg);
+    float: left;
+    margin-left: 45px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-image: -webkit-linear-gradient(-180deg,#222222 10%,#404040 50%,#222222 90%) 2 2 2 2;
+    border-image: -moz-linear-gradient(-180deg,#222222 10%,#404040 50%,#222222 90%) 2 2 2 2;
+    border-image: linear-gradient(-180deg,#222222 10%,#404040 50%,#222222 90%) 2 2 2 2;
+}
+.qr{
+    width: 204px;
+    height: 212px;
+    background-image: url(../images/qr.jpg);
+    float: left;
+    margin-left: 44px;
+}
+.li2{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "宋体";
+}
+.li3{
+    color: #999999;
+    font-size: 10px;
+    font-family: "宋体";
+}
+.footer{
+    /* width: 1519px; */
+    /* height: 47px; */
+    background-color: #101010;
+}
+.box5{
+    width: 800px;
+    /* height: 47px; */
+    /* margin: 0 auto; */
+}
+#p5{
+    font-size: 10px;
+    color: #999999;
+    line-height: 47px;
+}
+/* .footer2{
+    width: 100px;
+    height: 111px;
+    background-color: #000000;
+} */

@@ -1,0 +1,36 @@
+#img1 {
+    width: 100px;
+    height: 50px;
+}
+
+#img2 {
+    width: 12px;
+    height: 12px;
+}
+
+.box1 {
+    float: left;
+    margin-left: 100px;
+}
+
+.box2 {
+    float: right;
+    margin-right: 100px;
+}
+.box3{
+    height: 30px;
+}
+.box{
+    height: 50px;;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //打印100-200内能被6整除的前3个数
+        function printOne() {
+            var count = 0
+            for (var i = 100; i <= 200; i++) {
+                if (i % 6 == 0) {
+                    document.write(i+' ')
+                    count++
+                }
+                if (count == 3) {
+                    break
+                }
+            }
+        }
+        //入职薪水10K，每年涨幅5%，50年后工资多少？
+        function rise() {
+            var salary = 10000
+            for (var i = 2; i <= 50; i++) {
+                salary *= 1.05
+            }
+            document.write(salary)
+        }
+        //打印出1000-2000年中所有的闰年，并以每行四个数的形式输出(使用document.write()打印)
+        function printTwo() {
+            var conut = 0
+            for (var i = 1000; i <= 2000; i++) {
+                var year = i
+                if (year % 4 == 0 && year % 100 != 0) {
+                    document.write(year + ' ')
+                    conut++
+                    if (conut % 4 == 0) {
+                        document.write('<br/>')
+                    }
+                }
+                // if(conut==4){
+                //     document.write('<br/>')
+                //     conut=0
+                // }
+            }
+        }
+        //打印100内能被4整除的前5个数?
+        function printThree(){
+            var count=0
+            for(var i=1;i<=100;i++){
+                if(i%4==0){
+                    document.write(i+' ')
+                    count++
+                }
+                if(count==5){
+                    break
+                }
+            }
+        }
+        // printOne()
+        // rise()
+        // printTwo()
+        // printThree()
+        //求三个数的最大值
+        function max(m,n,k){
+            var max
+            if(m>n&&m>k){
+                max=m
+            }
+            if(n>m&&n>k){
+                max=n
+            }
+            if(k>m&&k>n){
+                max=k
+            }
+            document.write(max)
+        }
+        // max(54,32,77)
+        //入职薪水X，每年涨幅5%，50年后工资多少？
+        function Rise(r){
+            for(var i=2;i<=50;i++){
+                r*=1.05
+            }
+            document.write(r)
+            document.write('<br/>')
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin:0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.form{
+    width: 500px;
+    height: 540px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+.form p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form fieldset{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 458px;
+}
+.form legend{
+    width: 90px;
+    height: 20px;
+    color: #576f79;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: -170px;
+}
+.form fieldset span{
+    color: #727272;
+    font-size: 14px;
+}
+.form .username{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.form .password{
+    margin-left: 114px;
+    margin-bottom: 5px;
+}
+.form .login{
+    font-size: 14px;
+    /* font-weight: 700; */
+    /* color: #0b0b0b; */
+    margin-left: 97px;
+}
+.form .login label{
+    cursor: pointer;
+    cursor: hand;
+}
+.form button{
+    width: 60px;
+    height: 20px;
+    line-height: 14px;
+    background-color: #d0f0fd;
+    border: 1px solid #597078;
+}
+.form a{
+    color: #576f79;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.form .mail{
+    margin-left: 86px;
+    margin-bottom: 5px;
+}
+.form .repassword{
+    margin-left: 86px;
+    margin-bottom: 5px;
+}
+.form .clause{
+    margin-left: 59px;
+    margin-bottom: 5px;
+}
+.form .but{
+    text-align: center;
+}
+.form .notes{
+    margin-top: 40px;
+}
+.trademark1{
+    width: 90px;
+    height: 50px;
+    background-image: url(../images/实现迈乐和三叶草.png);
+    background-position: -479px  -269px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+.trademark2{
+    width: 90px;
+    height: 50px;
+    background-image: url(../images/实现迈乐和三叶草.png);
+    background-position: -993px  -342px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}

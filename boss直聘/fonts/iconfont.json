@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "54469",
+      "name": "安卓",
+      "font_class": "android",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "3638784",
+      "name": "iphone",
+      "font_class": "iconziti48",
+      "unicode": "e50c",
+      "unicode_decimal": 58636
+    }
+  ]
+}

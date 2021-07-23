@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 229px;
+    height: 322px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    background-image: url(../images/spriteBg.png);
+    background-position: -460px 0px;
+    /* background-repeat: no-repeat; */
+    overflow: hidden;
+    /* border: 1px solid #000; */
+}
+.box div:first-child{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: red;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.box div:last-child ul{
+    margin-top: 30px;
+    list-style: none;
+}
+.box div:last-child ul:first-child{
+    float: left;
+    margin-left: 20px;
+}
+.box div:last-child ul:last-child{
+    float: left;
+    margin-left: 10px;
+}
+.box div:last-child ul li{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ffe0e8;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #c81623;
+    margin-bottom: 10px;
+}
+.box div:last-child ul li a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+

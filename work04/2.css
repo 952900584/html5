@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 1300px;
+    height: 100px;
+}
+.box1{
+    width: 1102px;
+    height: 100px;
+    background: #f29044;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.box2{
+    width: 205px;
+    height: 54px;
+    background: #36b559;
+    float: left;
+    margin-top: 23px;
+}
+.box3{
+    width: 297px;
+    height: 52px;
+    background: #3754b3;
+    float: right;
+    margin-top: 25px;
+}
+.main{
+    width: 1300px;
+    height: 60px;
+    background: #2f2f2f;
+}
+.box4{
+    width: 1102px;
+    height: 60px;
+    background: #f2fb2b;
+    margin: 0 auto;
+}
+.main1{
+    width: 1300px;
+    height: 430px;
+    background: #2f6fd9;
+}
+.main2{
+    width: 1300px;
+    height: 280px;
+}
+.box5{
+    width: 1102px;
+    height: 250px;
+    margin: 0 auto;
+}
+.box6{
+    width: 492px;
+    height: 250px;
+    background: #9791d6;
+    float: left;
+    margin-right: 22px;
+}
+.box7{
+    width: 348px;
+    height: 250px;
+    background: #f5f5f5;
+    float: left
+}
+.box8{
+    width: 240px;
+    height: 250px;
+    background: #d691c0;
+    float: left;
+}
+.main3{
+    width: 1300px;
+    height: 288px;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+.box9{
+    width: 1054px;
+    height: 197px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+.box10{
+    width: 275px;
+    height: 157px;
+    background: #d691c0;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 27px;
+}
+.box11{
+    width: 700px;
+    height: 157px;
+    background: #8f96d5;
+    float: left;
+    margin-right: 32px;
+    margin-top: 20px;
+}
+.main4{
+    width: 1300px;
+    height: 418px;
+    overflow: hidden;
+}
+.box12{
+    width: 1200px;
+    height: 373px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.box13{
+    width: 1102px;
+    height: 70px;
+    background: #f4e20c;
+    overflow: hidden;
+}
+.box14{
+    width: 140px;
+    height: 52px;
+    background: #0b65f4;
+    margin-top: 18px;
+    float: left;
+}
+.box15{
+    width: 523px;
+    height: 55px;
+    background: #0b65f4;
+    margin-top: 13px;
+    float: right;
+}
+.box16{
+    width: 1102px;
+    height: 290px;
+    margin-top: 13px;
+}
+.box17{
+    width: 262px;
+    height: 290px;
+    background: #eff4f5;
+    margin-right: 18px;
+    float: left;
+}
+.box18{
+    width: 262px;
+    height: 290px;
+    background: #eff4f5;
+    float: left;
+}
+.foot{
+    width:1300px;
+    height: 125px;
+    background: #101c23;
+}
+
