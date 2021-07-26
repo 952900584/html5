@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arry=[57,63]
+        function swap(a) {
+            var temp = a[0];
+            a[0] = a[1];
+            a[1] = temp;
+        }
+
+        function printArry(a) {
+            for (var i = 0; i < a.length; i++) {
+                document.write(a[i]+' ');
+            }
+        }
+        swap(arry)
+        printArry(arry)
+    </script>
+</body>
+
+</html>
