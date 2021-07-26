@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=[89,78,90,99,67,59]
+        var max=a[0]
+        var min=a[0]
+        var count=0
+        for(var i=1;i<a.length;i++){
+            if(a[i]>a[i-1]){
+                max=a[i]
+            }
+        }
+        document.write(max)
+        document.write('<br/>')
+        for(i=1;i<a.length;i++){
+            if(a[i]<a[i-1]){
+                min=a[i]
+            }
+        }
+        document.write(min)
+        document.write('<br/>')
+        for(i=0;i<a.length;i++){
+            if(a[i]<60){
+                count++
+            }
+        }
+        document.write(count)
+    </script>
+</body>
+</html>
