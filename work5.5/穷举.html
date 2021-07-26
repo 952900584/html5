@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+            x,y,100-x-y
+            5x+3y+z/3=100
+            x+y+z=100
+        */
+        var x, y, z
+        for (x = 0; x < 20; x++) {
+            for (y = 0; y < 34; y++) {
+                for (z = 0; z < 300; z++) {
+                    if (x + y + z == 100 && 5 * x + 3 * y + z / 3 == 100 && z % 3 == 0) {
+                        document.write('鸡翁'+x+'只'+'鸡母'+y+'只'+'鸡雏'+z+'只')
+                        document.write('<br/>')
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
